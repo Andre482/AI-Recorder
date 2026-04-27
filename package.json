@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
-    "postinstall": "node scripts/patch-foojay-resolver.js",
+    "postinstall": "node scripts/patch-foojay-resolver.js && node scripts/patch-audio-recorder-player-kotlin.js",
     "start": "react-native start",
     "test": "jest"
   },
